@@ -5,6 +5,7 @@
 <img width="1190" height="1105" alt="10_ligand_conformer_3d" src="https://github.com/user-attachments/assets/e8f58ffa-c855-4dae-91bf-6f0bd9ace078" />
 <img width="1360" height="1190" alt="08_residue_embedding_pca_3d" src="https://github.com/user-attachments/assets/209cf8e5-9240-4e21-bcb0-bec4bb0739ca" />
 <img width="1200" height="750" alt="19_vina_ranking" src="https://github.com/user-attachments/assets/a2cf9f01-423c-4627-9633-c4d0bfe92484" /><img width="1121" height="944" alt="docking" src="https://github.com/user-attachments/assets/9f5e9826-0a08-46b6-8d27-213e9e1e381c" />
+<img width="1121" height="944" alt="DOCK2" src="https://github.com/user-attachments/assets/8b7259b0-fb89-402c-a902-17b0fc6c2a50" />
 # protein-drug-ai
 End-to-end ML pipeline for protein structure prediction, drug discovery, molecular docking (AutoDock Vina), and molecular dynamics (OpenMM) trainable models, a REST API, and Docker packaging, connected sequence → structure → screening → docking → MD refinement.
 This is not a reimplementation of AlphaFold, and it does not claim production-grade accuracy out of the box. It is a realistic, fully-wired engineering scaffold — the kind a research engineering team would actually build and hand off — that you train on your own data, extend module by module, and deploy. Every script in this README has been run and its output inspected; see Project status & honesty below for exactly what that does and doesn't mean.
