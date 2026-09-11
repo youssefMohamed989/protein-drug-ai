@@ -1,6 +1,10 @@
 
 <img width="1698" height="926" alt="Protein AI pipline" src="https://github.com/user-attachments/assets/7bf06bf8-167a-4bf6-99fe-8bdbb81cd6f0" />
 <img width="6420" height="3920" alt="integrated_deep_learning_MD_workflow_high_res (1)" src="https://github.com/user-attachments/assets/3ee189b9-6177-4ef8-9a41-2022f9b72cf3" />
+<img width="1360" height="1190" alt="07_contact_map_surface_3d" src="https://github.com/user-attachments/assets/dd67977b-4cd8-42ff-b8fb-61e63c26e336" />
+<img width="1190" height="1105" alt="10_ligand_conformer_3d" src="https://github.com/user-attachments/assets/e8f58ffa-c855-4dae-91bf-6f0bd9ace078" />
+<img width="1360" height="1190" alt="08_residue_embedding_pca_3d" src="https://github.com/user-attachments/assets/209cf8e5-9240-4e21-bcb0-bec4bb0739ca" />
+
 # protein-drug-ai
 End-to-end ML pipeline for protein structure prediction, drug discovery, molecular docking (AutoDock Vina), and molecular dynamics (OpenMM) trainable models, a REST API, and Docker packaging, connected sequence → structure → screening → docking → MD refinement.
 This is not a reimplementation of AlphaFold, and it does not claim production-grade accuracy out of the box. It is a realistic, fully-wired engineering scaffold — the kind a research engineering team would actually build and hand off — that you train on your own data, extend module by module, and deploy. Every script in this README has been run and its output inspected; see Project status & honesty below for exactly what that does and doesn't mean.
