@@ -1,6 +1,6 @@
 <img width="1698" height="926" alt="Protein AI pipline" src="https://github.com/user-attachments/assets/7bf06bf8-167a-4bf6-99fe-8bdbb81cd6f0" />
 # protein-drug-ai
-End-to-end ML pipeline for protein structure prediction, drug discovery, molecular docking (AutoDock Vina), and molecular dynamics (OpenMM) — trainable models, a REST API, and Docker packaging, connected sequence → structure → screening → docking → MD refinement.
+End-to-end ML pipeline for protein structure prediction, drug discovery, molecular docking (AutoDock Vina), and molecular dynamics (OpenMM) trainable models, a REST API, and Docker packaging, connected sequence → structure → screening → docking → MD refinement.
 This is not a reimplementation of AlphaFold, and it does not claim production-grade accuracy out of the box. It is a realistic, fully-wired engineering scaffold — the kind a research engineering team would actually build and hand off — that you train on your own data, extend module by module, and deploy. Every script in this README has been run and its output inspected; see Project status & honesty below for exactly what that does and doesn't mean.
 
 Table of contents
@@ -41,7 +41,7 @@ protein sequence ──▶ ProteinEncoder ──┼─ residue contact map
                                                     │                  PDBFixer + OpenMM
 SMILES ──▶ MoleculeGraph ──▶ GNN ──▶ 256-d molecule embedding          minimization
                                                     │                         │
-                              protein embedding ⊕ molecule embedding   AutoDock Vina
+                              protein embedding  molecule embedding   AutoDock Vina
                                                     │                    docking
                                     Affinity/Activity MLP head                │
                                                     │                  ranked poses
