@@ -1,3 +1,4 @@
+
 <img width="1698" height="926" alt="Protein AI pipline" src="https://github.com/user-attachments/assets/7bf06bf8-167a-4bf6-99fe-8bdbb81cd6f0" />
 # protein-drug-ai
 End-to-end ML pipeline for protein structure prediction, drug discovery, molecular docking (AutoDock Vina), and molecular dynamics (OpenMM) trainable models, a REST API, and Docker packaging, connected sequence → structure → screening → docking → MD refinement.
